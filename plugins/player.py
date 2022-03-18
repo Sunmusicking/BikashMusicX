@@ -351,19 +351,21 @@ async def resume(_, message: Message):
 @authorized_users_only
 async def skip(_, message: Message):
     global que
+    await message.delete()
     ACTV_CALLS = []
     chat_id = message.chat.id
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("🚫 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        await message.reply_text("**💥 Ʌɗɩtyɑ 💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
     else:
         queues.task_done(chat_id)
         
         if queues.is_empty(chat_id):
+            await message.reply_text("**🥀 𝐐𝐮𝐞𝐮𝐞 𝐄𝐦𝐩𝐭𝐲, 𝐋𝐞𝐚𝐯𝐢𝐧𝐠 𝐕𝐂 ✨ ...**") 
             await clientbot.pytgcalls.leave_group_call(chat_id)
         else:
-        	await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**") 
+            await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**") 
             await clientbot.pytgcalls.change_stream(
                 chat_id, 
                 InputStream(
@@ -391,12 +393,11 @@ async def stop(_, message: Message):
 @errors
 @authorized_users_only
 async def admincache(client, message: Message):
-    set(
-        message.chat.id,
-        (
-            member.user
-            for member in await message.chat.get_members(filter="administrators")
-        ),
-    )
-
+    global a
+    await message.delete()
+    new_admins = []
+    new_ads = await client.get_chat_members(message.chat.id, filter="administrators")
+    for u in new_ads:
+        new_admins.append(u.user.id)
+    admins[message.chat.id] = new_admins
     await message.reply_text("**🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**")
