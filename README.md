@@ -26,4 +26,4 @@
 #### Copy Pasters You Can Copy This But Must Give Credits ...
 
 ### Owner Of This Repository
-[![Bikash Halder](https://te.legra.ph/file/4cf7f89bbaaf5087f5cd0.png)](https://t.me/BikashHalder)
+[![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.png)](https://t.me/BikashHalder)
