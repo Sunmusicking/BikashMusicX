@@ -19,11 +19,11 @@
 
 ### Get String Session
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@AdityaHalder/StringSession)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@BikashHalder/StringSession)
 
 
 
 #### Copy Pasters You Can Copy This But Must Give Credits ...
 
 ### Owner Of This Repository
-[![Aditya Halder](https://te.legra.ph/file/8f9d2a593854d0c736201.png)](https://t.me/BikashHalder)
+[![Bikash Halder](https://te.legra.ph/file/4cf7f89bbaaf5087f5cd0.png)](https://t.me/BikashHalder)
