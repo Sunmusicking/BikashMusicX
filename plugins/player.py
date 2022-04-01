@@ -129,7 +129,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝐀𝐭🤞𝐅𝐢𝐫𝐬𝐭 🥀 𝐌𝐚𝐤𝐞 ♥️\n🌺 𝐌𝐞 ⭐ 𝐀𝐝𝐦𝐢𝐧 😎 ...**")
+                        "**💥 𝐀𝐭🤞𝐅𝐢𝐫𝐬𝐭 🥀 𝐌𝐚𝐤𝐞 ♥️\n🌺 𝐌𝐞 ⭐ 𝐀𝐝𝐦𝐢𝐧 🥰 ...**")
                     return
 
                 try:
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 ❤️ 𝐂𝐚𝐧'𝐭 🥀 𝐉𝐨𝐢𝐧 💫 𝐒𝐨 😔 𝐏𝐥𝐞𝐚𝐬𝐞 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder) 🥀**")
+                        f"**🎸 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 ❤️ 𝐂𝐚𝐧'𝐭 🥀 𝐉𝐨𝐢𝐧 💫 𝐒𝐨 😔 𝐏𝐥𝐞𝐚𝐬𝐞 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 [𝐏𝐑𝐈𝐘𝐀❤️](https://t.me/DEVILPRIYA_OF_CB) 🥀**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 ❤️ 𝐂𝐚𝐧'𝐭 🥀 𝐉𝐨𝐢𝐧 💫 𝐒𝐨 😔 𝐏𝐥𝐞𝐚𝐬𝐞 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder) 🥀**")
+            f"**🎸 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 ❤️ 𝐂𝐚𝐧'𝐭 🥀 𝐉𝐨𝐢𝐧 💫 𝐒𝐨 😔 𝐏𝐥𝐞𝐚𝐬𝐞 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 [𝐏𝐑𝐈𝐘𝐀❤️](https://t.me/DEVILPRIYA_OF_CB) 🥀**")
         return
     
     audio = (
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/4cf7f89bbaaf5087f5cd0.png"
+        thumb_name = "https://telegra.ph/file/431761aae9f49a8169494.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="🥀 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 ✨",
-                            url=f"https://t.me/bgt_chat")
+                            url=f"https://t.me/TAMIL_CHATBOX")
 
                 ]
             ]
@@ -213,7 +213,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="🥀 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 ✨",
-                            url=f"https://t.me/bgt_chat")
+                            url=f"https://t.me/TAMIL_CHATBOX")
 
                 ]
             ]
@@ -221,7 +221,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/4cf7f89bbaaf5087f5cd0.png"
+            thumb_name = "https://telegra.ph/file/2b01454b13d8389ca1076.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="🥀 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 ✨",
-                            url=f"https://t.me/bgt_chat")
+                            url=f"https://t.me/TAMIL_CHATBOX")
 
                 ]
             ]
@@ -283,7 +283,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="🥀 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 ✨",
-                            url=f"https://t.me/bgt_chat")
+                            url=f"https://t.me/TAMIL_CHATBOX")
 
                 ]
             ]
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 𝐁𝐢𝐤𝐚𝐬𝐡🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+            caption="**❤️ 𝐋𝐈𝐒𝐀🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝐁𝐢𝐤𝐚𝐬𝐡🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+            caption="**❤️ 𝐋𝐈𝐒𝐀🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -357,7 +357,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 𝐁𝐢𝐤𝐚𝐬𝐡 💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("**❤️ 𝐋𝐈𝐒𝐀 💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
     else:
         queues.task_done(chat_id)
         
