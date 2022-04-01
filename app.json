@@ -1,9 +1,9 @@
 {
-    "name": "BikashMusicX",
-    "logo": "https://te.legra.ph/file/0a633ea610081fe062b1b.jpg",
+    "name": "LISAcuteRoboT",
+    "logo": "https://telegra.ph/file/649d56effabd1d2f7cf70.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/IambikashHalder/BikashMusicX",
+    "repository": "https://github.com/Sunmusicking/BikashMusicX.git",
     "stack": "container",
     "env": {
         "API_ID": {
