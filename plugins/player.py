@@ -75,7 +75,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("resources/thumbnail.png")
+    image2 = Image.open("resource/thumbnail.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -94,8 +94,8 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
         font=font,
     )
     img.save("final.png")
-    os.remove("temp.png")
-    os.remove("background.png")
+    os.remove("https://telegra.ph/file/649d56effabd1d2f7cf70.jpg")
+    os.remove("https://telegra.ph/file/649d56effabd1d2f7cf70.jpg")
 
 
 @Client.on_message(
