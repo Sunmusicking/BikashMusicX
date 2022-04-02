@@ -46,7 +46,7 @@ async def start_(client: Client, message: Message):
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [❤️ʙᴏᴛ ᴏᴡɴᴇʀ](https://t.me/DEVILPRIYA_OF_CB) [❤️ʙᴏᴛ ᴏᴡɴᴇʀ](https://t.me/DEVILPRIYA_OF_CB) ...
+ᴅᴍ ᴛᴏ ᴍʏ [❤️ʙᴏᴛ ᴏᴡɴᴇʀ](https://t.me/DEVILPRIYA_OF_CB)
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
