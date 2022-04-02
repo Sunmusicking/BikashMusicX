@@ -319,7 +319,7 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
 
-        await message.reply_photo(
+        await message.reply_photo(url="https://telegra.ph/file/2b01454b13d8389ca1076.jpg")
             photo="final.png",
             reply_markup=keyboard,
             caption="**❤️ 𝐋𝐈𝐒𝐀 🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
